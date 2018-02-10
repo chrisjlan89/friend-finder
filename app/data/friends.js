@@ -1,7 +1,7 @@
 var friends = [
     {
         "name":"Chris",
-        "photo":"img",
+        "photo": "https://www.dropbox.com/s/skufnxw4sz2cwu6/chris.jpg?raw=1",
         "scores":[
             5,
             1,
@@ -17,63 +17,82 @@ var friends = [
     },
     {
         "name":"Ryan",
-        "photo":"img",
+        "photo": "https://www.dropbox.com/s/4qil9xkw41pyk0j/ryan.jpg?raw=1",
+        //"photo":"../public/assets/img/ryan.jpg",
         "scores":[
+            4,
+            4,
             5,
+            2,
+            3,
             1,
-            4,
-            4,
+            3,
+            1,
+            1,
+            1
+          ]
+    },
+
+    {
+        "name":"Goku",
+        "photo": "https://pbs.twimg.com/profile_images/833767319973212161/Ft904pMk_400x400.jpg",
+        "scores":[
             3,
             1,
             2,
-            5,
-            3,
+            2,
+            4,
+            1,
+            2,
+            4,
+            2,
             1
           ]
-    }
+    },
+
+    {
+        "name":"Vegeta",
+        "photo": "http://static.tvtropes.org/pmwiki/pub/images/vegetavwx2014_928.jpg",
+        "scores":[
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+    },
+
+    {
+        "name": "Andrew",
+        "photo": "https://www.dropbox.com/s/e9wtejvr00p8y3s/andrew.jpg?raw=1",
+        "scores": [
+         4,
+         3,
+         3,
+         3,
+         5,
+         2,
+         4,
+         1,
+         3,
+         4,
+        ]
+        
+        }
+
+
+    
 
 ]
 
 module.exports = {
     friends
 }
-
-
-
-
-
-// Determine the user's most compatible friend using the following as a guide:
-
-// Convert each user's results into a simple array of numbers (ex: [5, 1, 4, 4, 5, 1, 2, 5, 4, 1]).
-// With that done, compare the difference between current user's scores against those from other users, question by question. Add up the differences to calculate the totalDifference.
-// Example:
-// User 1: [5, 1, 4, 4, 5, 1, 2, 5, 4, 1]
-// User 2: [3, 2, 6, 4, 5, 1, 2, 5, 4, 1]
-// Total Difference: 2 + 1 + 2 = 5
-// Remember to use the absolute value of the differences. Put another way: no negative solutions! -------- >   Math.abs(x)
- // Your app should calculate both 5-3 and 3-5 as 2, and so on.
-// The closest match will be the user with the least amount of difference.
-
-
-
-// var allScores = [];
-
-// for( var i =0; friends.length; i++){
-//     var indvidualScore = 0;
-//     for(var j =0; j < 10; j++){
-//           indvidualScore = Math.abs(newFriend.scores[j] - friends.scores[i]);
-          
-//     }
-
-
-
-// }
-
-
-
-
-
-
 
 //   using data attributes 
 

@@ -10,6 +10,11 @@ var PORT = process.env.PORT || 3000;
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
+//express.static(root, [options])
+//app.use(express.static('./app/public/assets/css'))
+app.use(express.static('./app/public/'))
+//app.use(express.static('files'))
+//app.use(express.static('./app/public/assets/img'))
 
 require('./app/routing/htmlRoutes.js')(app, path);
 require('./app/routing/apiRoutes.js')(app, path);
