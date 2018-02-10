@@ -20,6 +20,7 @@
   "homepage": "https://github.com/chrisjlan89/friend-finder#readme",
   "dependencies": {
     "express": "^4.16.2",
+    "parsleyjs": "^2.8.1",
     "path": "^0.12.7"
   }
 }
