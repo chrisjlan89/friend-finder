@@ -35,6 +35,9 @@ getFriends()
     
     // use a for loop here to cut down on code ????
     scores : [
+      // scores : $('select.chosen-select').map(function () {
+      //   return this.value
+      // }).get()
       parseInt($("input[name=q1]:checked").val()),
       parseInt($("input[name=q2]:checked").val()),
       parseInt($("input[name=q3]:checked").val()),
